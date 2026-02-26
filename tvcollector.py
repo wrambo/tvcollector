@@ -22,8 +22,8 @@ class FinalIPTV:
     def __init__(self):
         # 源网址
         self.source_urls = [
-      #      "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.txt",
-      #      "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/others_output.txt",
+            "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.txt",
+            "https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/others_output.txt",
             "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
         ]
         
@@ -499,3 +499,4 @@ if __name__ == "__main__":
         traceback.print_exc()
 
         input("\n按回车键退出...")
+
