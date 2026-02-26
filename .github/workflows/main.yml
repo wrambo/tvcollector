@@ -8,6 +8,8 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    permissions:            # 关键：赋予写入权限
+      contents: write
 
     steps:
       - name: 检出仓库代码
